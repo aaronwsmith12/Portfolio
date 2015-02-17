@@ -4,7 +4,7 @@ public class Collections {
 
 	public static void main(String[] args) {
 		//Hash maps contain both sets and lists
-		// Or key values and pairs
+		// Or key value pairs
 		
 		HashMap<String, String> clipart = new HashMap<>();
 		
