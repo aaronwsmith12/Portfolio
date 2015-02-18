@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate"/>
+	<classpathentry kind="lib" path="/Users/aaronwsmith/Documents/Java/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar" sourcepath="/Users/aaronwsmith/Documents/Java/mysql-connector-java-5.0.8"/>
+	<classpathentry kind="lib" path="/Users/aaronwsmith/Documents/Java/mysql-connector-java-5.0.8/debug/mysql-connector-java-5.0.8-bin-g.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
