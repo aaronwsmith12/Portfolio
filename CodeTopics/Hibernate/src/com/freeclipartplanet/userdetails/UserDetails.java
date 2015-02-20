@@ -1,4 +1,4 @@
-package UserDetails;
+package com.freeclipartplanet.userdetails;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
