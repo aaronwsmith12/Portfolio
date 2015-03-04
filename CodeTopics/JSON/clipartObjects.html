@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JSON</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		// Creates JSON Objects
+			var People = {
+				category:"People", colored:true, subCategory:"stick figures" 
+			};
+			var Holiday = {
+				category:"Holiday", colored:true, subCategory:"4th of July"
+			};
+			var Buildings = {
+				category:"Buildings", colored:true, subCategory:"Eiffel Tower"
+			};
+			var Categories = {
+				category1:People, category2:Holiday, category3:Buildings
+			};
+			document.write(People.subCategory + " are in the " + People.category + " category");
+			document.write("<hr />");
+			document.write(Categories.category2.subCategory);
+			document.write("<hr />");
+		// Creates JSON Objects in an array
+			var Holidays = ["Christmas", "4th of July", "Halloween"];
+			var StateFlags = ["Idaho", "Maryland", "Utah", "Alaska"];
+			var Object = { array1:Holidays, array2:StateFlags};
+			document.write(Object.array2[2] + " on the " + 	Object.array1[1] + " is where I will be");
+		</script>
+	</body>
+</html>
